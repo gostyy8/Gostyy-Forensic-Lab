@@ -36,18 +36,17 @@ A high-precision, interactive **Digital Forensics & Incident Response (DFIR)** a
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/Gostyy-Forensic-Lab.git](https://github.com/YOUR_USERNAME/Gostyy-Forensic-Lab.git)
-Install dependencies:
+   git clone [https://github.com/gostyy8/Gostyy-Forensic-Lab.git](https://github.com/YOUR_USERNAME/Gostyy-Forensic-Lab.git)
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+3. **Run the Lab:**
+   ```bash
+   streamlit run app.py
 
-Bash
-pip install -r requirements.txt
-Run the Lab:
-
-Bash
-streamlit run app.py
-🧬 Tactical Design
-This project follows the Gostyy Vision: Efficiency, Minimalism, and Technical Authority. The UI is built to reduce distractions while maintaining a high-impact response during forensic audits.
+## 🧬 Tactical Design
+This project follows the **Gostyy Vision**: Efficiency, Minimalism, and Technical Authority. The UI is built to reduce distractions while maintaining a high-impact response during forensic audits.
 
 Note: This tool is for educational and forensic auditing purposes. Always ensure you have authorization before testing code.
 
-Developed by BAKER | 2026 🛡️
+Developed by BAKER | 2026 
