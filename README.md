@@ -1,3 +1,4 @@
+Markdown
 # 🛡️ Gostyy Forensic Lab v6.1
 
 A high-precision, interactive **Digital Forensics & Incident Response (DFIR)** auditing tool. Designed with a sleek cyber-minimalist aesthetic, this lab allows security researchers to identify critical vulnerabilities in source code with real-time visual feedback.
@@ -16,6 +17,8 @@ A high-precision, interactive **Digital Forensics & Incident Response (DFIR)** a
 - **Cyber-Minimalist Design:** Dark mode, glassmorphism UI, and tactical layout.
 - **Global Intelligence:** Full English security reports and remediation advice.
 
+---
+
 ## 🔍 Vulnerabilities Covered
 
 | Threat Type | Description |
@@ -33,4 +36,18 @@ A high-precision, interactive **Digital Forensics & Incident Response (DFIR)** a
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/gostyy8/Gostyy-Forensic-Lab.git](https://github.com/YOUR_USERNAME/Gostyy-Forensic-Lab.git)
+   git clone [https://github.com/YOUR_USERNAME/Gostyy-Forensic-Lab.git](https://github.com/YOUR_USERNAME/Gostyy-Forensic-Lab.git)
+Install dependencies:
+
+Bash
+pip install -r requirements.txt
+Run the Lab:
+
+Bash
+streamlit run app.py
+🧬 Tactical Design
+This project follows the Gostyy Vision: Efficiency, Minimalism, and Technical Authority. The UI is built to reduce distractions while maintaining a high-impact response during forensic audits.
+
+Note: This tool is for educational and forensic auditing purposes. Always ensure you have authorization before testing code.
+
+Developed by BAKER | 2026 🛡️
