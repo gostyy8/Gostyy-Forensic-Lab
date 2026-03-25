@@ -44,8 +44,19 @@ A high-precision, interactive **Digital Forensics & Incident Response (DFIR)** a
    ```bash
    streamlit run app.py
 
-## 🧬 Tactical Design
-This project follows the **Gostyy Vision**: Efficiency, Minimalism, and Technical Authority. The UI is built to reduce distractions while maintaining a high-impact response during forensic audits.
+---
+
+## 🌱 Learning & Contribution
+
+As a student and an aspiring cybersecurity researcher, I am constantly learning and evolving. This lab is a part of my journey into the world of **DFIR**. 
+
+I highly value any feedback, suggestions, or corrections from the community. If you spot a bug, have an idea for a new feature, or want to suggest a better way to optimize the detection engine, please feel free to:
+- Open an **Issue**.
+- Submit a **Pull Request**.
+- Reach out with your advice.
+
+Your mentorship and feedback help me grow! 🚀
+
 
 Note: This tool is for educational and forensic auditing purposes. Always ensure you have authorization before testing code.
 
