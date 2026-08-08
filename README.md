@@ -1,64 +1,77 @@
-Markdown
-# 🛡️ Gostyy Forensic Lab v6.1
-(https://gostyy-forensic-lab.streamlit.app/).
+# 🛡️ Gostyy Forensic Lab
 
-A high-precision, interactive **Digital Forensics & Incident Response (DFIR)** auditing tool. Designed with a sleek cyber-minimalist aesthetic, this lab allows security researchers to identify critical vulnerabilities in source code with real-time visual feedback.
+> **AI-Powered Code Vulnerability & Forensic Log Analyzer**
 
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Tech](https://img.shields.io/badge/Tech-Python%20%7C%20Streamlit-white)
-![Design](https://img.shields.io/badge/Theme-Glassmorphism-blue)
+`Gostyy Forensic Lab` is an interactive security auditing and digital forensics web application. Built with Streamlit and powered by AI/Regex heuristic engines, it detects critical security flaws, hardcoded credentials, and code injection vulnerabilities in real-time with an immersive, glassmorphism-inspired interface.
 
 ---
 
-## 🚀 Features
+## ⚡ Features
 
-- **High-Precision Detection:** Specialized Regex engine to identify 6+ critical security threats.
-- **Interactive UX:** - ⚡ **Intense Screen Shake:** Visual "Damage" effect triggered upon threat detection.
-  - 🎈 **Success Animations:** Celebratory feedback for clean, secure code.
-- **Cyber-Minimalist Design:** Dark mode, glassmorphism UI, and tactical layout.
-- **Global Intelligence:** Full English security reports and remediation advice.
-
----
-
-## 🔍 Vulnerabilities Covered
-
-| Threat Type | Description |
-| :--- | :--- |
-| **SQL Injection** | Detection of insecure string concatenation in database queries. |
-| **Hardcoded Secrets** | Identification of exposed API keys, passwords, and auth tokens. |
-| **XSS (Cross-Site Scripting)** | Recognition of unsafe DOM manipulations in Javascript. |
-| **Command Injection** | Spotting dangerous system calls (OS/Subprocess). |
-| **Weak Hashing** | Alerting on outdated algorithms like MD5/SHA1. |
-| **Insecure Deserialization** | Detecting unsafe usage of Python's Pickle module. |
+* **🔍 Multi-Vector Threat Detection:** Scans source code for SQLi, Command Injection, XSS, Path Traversal, and SSRF.
+* **🔑 Secret & API Key Leak Prevention:** Identifies hardcoded cryptographic keys, tokens, and insecure hashing mechanisms.
+* **🧠 AI-Assisted Vulnerability Context:** Provides instant severity ratings and actionable remediation guidance.
+* **🖥️ Cyberpunk Glassmorphism UI:** Features dynamic feedback, status logs, and custom visual effects for security analysts.
+* **📊 Comprehensive Forensic Reports:** Generates structured findings with integrity verification.
 
 ---
 
-## 🛠️ Installation & Deployment
+## 📸 Demo & Preview
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/gostyy8/Gostyy-Forensic-Lab.git](https://github.com/YOUR_USERNAME/Gostyy-Forensic-Lab.git)
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-3. **Run the Lab:**
-   ```bash
-   streamlit run app.py
+*Live Streamlit Deployment:*  
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gostyy-forensic-lab.streamlit.app/)
+
+ 
+![Forensic Lab](assets/Animation.gif)
 
 ---
 
-## 🌱 Learning & Contribution
+## 🎯 Detected Vulnerability Vectors
 
-As a student and an aspiring cybersecurity researcher, I am constantly learning and evolving. This lab is a part of my journey into the world of **DFIR**. 
+| Category | Vulnerability Type | Severity |
+| :--- | :--- | :--- |
+| **Injection** | SQL Injection (SQLi) | 🔴 HIGH |
+| **Execution** | Arbitrary Command Injection | 🔴 HIGH |
+| **Secrets** | Hardcoded API Keys / Credentials | 🔴 HIGH |
+| **Web Safety** | Cross-Site Scripting (XSS) | 🟠 MEDIUM |
+| **File System** | Path Traversal / File Inclusion | 🟠 MEDIUM |
+| **Crypto** | Weak Hashes (MD5 / SHA1) & `eval()` | 🟠 MEDIUM |
+| **Auth & Access**| SSRF / IDOR / Missing Auth | 🟡 LOW |
 
-I highly value any feedback, suggestions, or corrections from the community. If you spot a bug, have an idea for a new feature, or want to suggest a better way to optimize the detection engine, please feel free to:
-- Open an **Issue**.
-- Submit a **Pull Request**.
-- Reach out with your advice.
+---
 
-Your mentorship and feedback help me grow! 🚀
+## 🛠️ Tech Stack & Prerequisites
 
+* **Language:** Python 3.x
+* **Framework:** Streamlit
+* **Security & Parsing:** Regex Heuristics / Anthropic API Integration
 
-Note: This tool is for educational and forensic auditing purposes. Always ensure you have authorization before testing code.
+---
 
-Developed by BAKER | 2026 
+## 🚀 Quick Start
+
+### 1. Clone the repository:
+```bash
+git clone [https://github.com/gostyy8/Gostyy-Forensic-Lab.git](https://github.com/gostyy8/Gostyy-Forensic-Lab.git)
+cd Gostyy-Forensic-Lab
+```
+
+### 2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Set up environment variables (Optional for AI analysis):
+```bash
+# Windows (PowerShell):
+$env:ANTHROPIC_API_KEY="your-api-key-here"
+
+# Linux/Mac:
+export ANTHROPIC_API_KEY="your-api-key-here"
+```
+
+### 4. Run the Streamlit dashboard:
+```bash
+streamlit run app.py
+```
+
