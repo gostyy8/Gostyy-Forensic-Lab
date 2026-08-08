@@ -10,7 +10,7 @@
 
 * **🔍 Multi-Vector Threat Detection:** Scans source code for SQLi, Command Injection, XSS, Path Traversal, and SSRF.
 * **🔑 Secret & API Key Leak Prevention:** Identifies hardcoded cryptographic keys, tokens, and insecure hashing mechanisms.
-* **🧠 AI-Assisted Vulnerability Context:** Provides instant severity ratings and actionable remediation guidance.
+* **🧠 Context-Aware Vulnerability Scoring:** Provides instant severity ratings and rule-based remediation guidance.
 * **🖥️ Cyberpunk Glassmorphism UI:** Features dynamic feedback, status logs, and custom visual effects for security analysts.
 * **📊 Comprehensive Forensic Reports:** Generates structured findings with integrity verification.
 
