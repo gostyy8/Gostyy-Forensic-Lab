@@ -1,6 +1,6 @@
 # 🛡️ Gostyy Forensic Lab
 
-> **AI-Powered Code Vulnerability & Forensic Log Analyzer**
+> **Interactive Code Vulnerability & Forensic Log Analyzer using Pattern Matching & Heuristic Rules**
 
 `Gostyy Forensic Lab` is an interactive security auditing and digital forensics web application. Built with Streamlit and powered by AI/Regex heuristic engines, it detects critical security flaws, hardcoded credentials, and code injection vulnerabilities in real-time with an immersive, glassmorphism-inspired interface.
 
